@@ -1,0 +1,86 @@
+*{  /* At first full body margin & padding 0 */
+    margin: 0px; 
+    padding: 0px;
+}
+body{
+    background: linear-gradient(to bottom right, #4f3be7, #0befd6); /* Applying multicolor */
+    height: 35.2rem;
+}
+h1{
+    position: absolute;
+    left: 37.5rem;
+    top: 2rem;
+    color: floralwhite;
+    text-decoration: overline;
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    width: 21%;
+    margin-top: 6%;
+    margin-left: 39%;
+    height: 30rem;
+    background-color: yellow;
+    border-radius: 13px;
+}
+.display{
+    margin: 23px;
+    width: 16rem;
+    margin-left: 12px;
+    height: 53px;
+    background-color: #dfdfdf;
+    font-size: 27px;
+    border-radius: 7px;
+    border: 1px solid;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkmagenta;
+    border-radius: 10px;
+    height: 371px;
+    padding: 4px;
+}
+button{
+    width: 69px;
+    height: 54px;
+    font-size: 25px;
+    margin: 4px;
+    border-radius: 11px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    opacity: 0.5;
+}
+#result{
+    background-color: forestgreen;
+    font-size: 48px;
+}
+#clear{
+    background-color: red;
+}
+#delete{
+    background-color: orange;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+    background: linear-gradient(to bottom right, #4f3be7, #0befd6); /* Applying multicolor */
+    height: 36.2rem;
+    }
+    .container{
+    position: absolute;
+    border: 2px solid black;
+    width: 8cm;
+    height: 30rem;
+    right: 135px
+    }
+    .display{
+    margin-left: 22px;
+    }
+}

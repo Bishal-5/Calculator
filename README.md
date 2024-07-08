@@ -4,7 +4,7 @@
 <h2>Demo</h2>
 <a href="https://bishal-calculator.netlify.app/">Click Here</a> <strong>To See The Application In Action.</strong>
 
-<h2><img src="https://github.com/Bishal-5/Calculator/blob/5fd3a52f17f3136bcb9f61e9d470898f9dea6e5b/Calculator/Screenshot/Screenshot.png"></h2>
+<h2><img src="https://github.com/Bishal-5/Calculator/blob/main/Calculator/Calculator%20Img.png"></h2>
 
 <h2>Features</h2>
 <ol type="I">
